@@ -31,6 +31,7 @@ public class ZooMain {
         String input = "input_1";
 
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
+        env.disableOperatorChaining();
         env.setParallelism(1);
         ImageDirSource src = new ImageDirSource();
 
