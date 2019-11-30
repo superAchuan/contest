@@ -122,12 +122,6 @@ public class ImageUtil {
         for (int y = 0; y < image.getHeight(); y++) {
             for (int x = 0; x < image.getWidth(); x++) {
                 Color c = new Color(image.getRGB(x, y), true);
-//                result[3*width*y + 3*x+1] = (float) c.getRed();
-//                result[3*width*y + 3*x + 2] = (float)c.getGreen();
-//                result[3*width*y + 3*x + 0] = (float)c.getBlue();
-//                result[width*y + x] = (float) c.getRed();
-//                result[height*width +  width*y + x] = (float)c.getGreen();
-//                result[2*height*width +width*y + x] = (float)c.getBlue();
                 result[width*y + x] = (float) c.getBlue()/255.0f;
                 result[height*width +  width*y + x] = (float)c.getGreen()/255.0f;
                 result[2*height*width +width*y + x] = (float)c.getRed()/255.0f;
