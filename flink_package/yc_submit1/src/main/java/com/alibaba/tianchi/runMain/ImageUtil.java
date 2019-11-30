@@ -128,8 +128,8 @@ public class ImageUtil {
 //                result[width*y + x] = (float) c.getRed();
 //                result[height*width +  width*y + x] = (float)c.getGreen();
 //                result[2*height*width +width*y + x] = (float)c.getBlue();
-                result[width*y + x] = (float) c.getGreen()/255.0f;
-                result[height*width +  width*y + x] = (float)c.getBlue()/255.0f;
+                result[width*y + x] = (float) c.getBlue()/255.0f;
+                result[height*width +  width*y + x] = (float)c.getGreen()/255.0f;
                 result[2*height*width +width*y + x] = (float)c.getRed()/255.0f;
             }
         }
