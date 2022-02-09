@@ -16,7 +16,7 @@
         <flink.version>1.8.0</flink.version>
         <scala.major.version>2.11</scala.major.version>
         <log4j.version>2.11.1</log4j.version>
-        <hadoop.version>2.7.0</hadoop.version>
+        <hadoop.version>2.10.1</hadoop.version>
         <tensorflow.version>1.11.0</tensorflow.version>
         <netty.version>4.1.30.Final</netty.version>
         <curator.version>2.7.1</curator.version>
